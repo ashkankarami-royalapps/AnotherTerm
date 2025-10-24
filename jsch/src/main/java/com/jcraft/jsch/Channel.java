@@ -8,8 +8,8 @@ modification, are permitted provided that the following conditions are met:
   1. Redistributions of source code must retain the above copyright notice,
      this list of conditions and the following disclaimer.
 
-  2. Redistributions in binary form must reproduce the above copyright 
-     notice, this list of conditions and the following disclaimer in 
+  2. Redistributions in binary form must reproduce the above copyright
+     notice, this list of conditions and the following disclaimer in
      the documentation and/or other materials provided with the distribution.
 
   3. The names of the authors may not be used to endorse or promote products
@@ -60,7 +60,7 @@ public abstract class Channel {
 //TODO//IMPLS.put("auth-agent@openssh.com", ChannelAgentForwarding.class);
         IMPLS.put("direct-tcpip", ChannelDirectTCPIP.class);
         IMPLS.put("forwarded-tcpip", ChannelForwardedTCPIP.class);
-//TODO//IMPLS.put("sftp", ChannelSftp.class);
+        IMPLS.put("sftp", ChannelSftp.class);
 //TODO//IMPLS.put("subsystem", ChannelSubsystem.class);
         IMPLS.put("direct-streamlocal@openssh.com", ChannelDirectStreamLocal.class);
     }

@@ -14,12 +14,12 @@ buildscript {
 }
 
 allprojects {
-    repositories {
-        //mavenLocal()
-        google()
-        mavenCentral()
-        maven { url 'https://jitpack.io' }
-    }
+//    repositories {
+//        //mavenLocal()
+//        google()
+//        mavenCentral()
+//        maven { url 'https://jitpack.io' }
+//    }
 }
 
 tasks.register('clean', Delete) {
